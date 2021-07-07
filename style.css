@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+form {
+  display: inline-block;
+  text-align: left;
+  color: blue;
+  background-image: url("white.jpg");
+  background-size: 100%;
+  border: tomato;
+  border-radius: 5%;
+}
