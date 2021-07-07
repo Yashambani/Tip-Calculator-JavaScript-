@@ -12,5 +12,5 @@ btn.addEventListener("click", () => {
   totalTipAmountEach = (billAmount * (tipPerc / 100)) / totalPeople;
   document.querySelector(
     "#answer"
-  ).innerHTML = `<strong>Tip Amount:=</strong> $${totalTipAmountEach} Each`;
+  ).innerHTML = `<strong>Tip Amount:=</strong> $${totalTipAmountEach} Per Person`;
 });
