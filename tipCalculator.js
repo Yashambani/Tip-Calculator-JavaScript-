@@ -1,4 +1,4 @@
-var btn = document.querySelector("#calButton");
+let btn = document.querySelector("#calButton");
 
 btn.addEventListener("click", () => {
   let billAmount = document.querySelector("#billAmount").value;
